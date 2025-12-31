@@ -1,0 +1,23 @@
+# Python caches
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Pytest cache
+.pytest_cache/
+
+# Build artifacts
+frontend/build/
+
+# Temporary and generated files
+tmp_predict_response.json
+
+# Archive of removed/unused files
+archive_unused/
+
+# Node
+node_modules/
+# VSCode
+.vscode/

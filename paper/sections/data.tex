@@ -1,0 +1,9 @@
+\section{Data and Preprocessing}
+The project uses a curated route‑level dataset stored in `data/` (notably `ap_trains_master_clean.csv` and `train_data_*.csv`). The demo dataset contains roughly 250+ route records with features including train id, source, destination, distance, day of week, month, season, weather condition, price, and historical average delay. Key preprocessing steps:
+\begin{itemize}
+  \item Construct `route` as `source-destination` and scale numeric features such as distance.
+  \item Encode categorical features (route, weather, season) using label encoders saved with model artifacts.
+  \item Apply imputation pipelines for missing RailRadar features and flag imputed values (flags v4–v7 pipeline in `scripts/`).
+  \item Produce conformal calibration splits to compute 95\% prediction intervals.
+\end{itemize}
+For reproducibility, versioned artifacts and scripts are included (e.g., `models/rr_mean_model_tuned.joblib`, `backend/model.pkl`).

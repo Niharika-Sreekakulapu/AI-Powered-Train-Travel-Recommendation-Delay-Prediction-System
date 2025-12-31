@@ -1,0 +1,50 @@
+train_id,train_name,distance_km,station_count,pred_rr_mean_unc_calib,avg_delay_min,reasons
+26811,AMARAVATI EXP,907.0,17,359.4446059756853,39.42029512858289,long_route;many_stations;high_uncertainty
+21679,CIRCAR EXPRESS,938.0,16,474.8653839525911,71.93304546450999,long_route;many_stations;high_uncertainty;historical_high_delay
+13870,PINAKINI EXP,967.0,17,323.78618088111506,65.51187627732673,long_route;many_stations;high_uncertainty;historical_high_delay
+15254,SESHADRI EXP,966.0,16,371.9638769283643,48.40140702301775,long_route;many_stations;high_uncertainty
+25792,TUNGABHADRA EXP,930.0,17,299.40622100815176,40.411719281240885,long_route;many_stations
+24353,GNT NS EXP,1033.0,17,345.08611192337287,49.742044749845725,long_route;many_stations;high_uncertainty
+21041,SESHADRI EXP,900.0,15,317.15222278895817,41.02542984720863,long_route;many_stations;high_uncertainty
+28441,MEMU SPECIAL,905.0,17,334.9879315860005,39.55481931741605,long_route;many_stations;high_uncertainty
+14832,VIKRAMASIMHAPURI,930.0,17,309.1988964231939,33.09464967126406,long_route;many_stations;high_uncertainty
+14818,SESHADRI EXP,1078.0,17,322.334656953013,64.23327642391561,long_route;many_stations;high_uncertainty;historical_high_delay
+17712,FALAKNUMA EXP,919.0,16,328.6910657124159,35.7115167009996,long_route;many_stations;high_uncertainty
+25425,SESHADRI EXP,981.0,17,264.6784363755752,32.50330681592828,long_route;many_stations
+20373,FALAKNUMA EXP,1221.0,17,306.8474307958569,67.65463406949257,long_route;many_stations;high_uncertainty;historical_high_delay
+24218,GARIB RATH,950.0,17,272.2469086210002,43.50122625799913,long_route;many_stations
+18679,JANMABHOOMI EXP,992.0,16,464.91533501657256,77.34008071204433,long_route;many_stations;high_uncertainty;historical_high_delay
+17770,VISAKHA EXPRESS,876.0,15,297.36540916441186,58.2137414595846,many_stations;historical_high_delay
+29735,VANDE BHARAT,1112.0,17,345.9481542745186,83.28484649868133,long_route;many_stations;high_uncertainty;historical_high_delay
+17669,SESHADRI EXP,945.0,17,261.18548219804137,46.09185875621812,long_route;many_stations
+26511,INTERCITY EXP,906.0,17,278.3086144494077,30.076618283793803,long_route;many_stations
+13666,GARIB RATH,914.0,16,339.78428806973284,39.61890301321626,long_route;many_stations;high_uncertainty
+15102,JANSADHARN,1882.0,19,433.6577361602932,75.19177753518592,long_route;many_stations;high_uncertainty;historical_high_delay
+13268,GODAVARI EXPRES,892.0,15,270.8373165006145,64.53510665157249,many_stations;historical_high_delay
+27076,AMARAVATI EXP,1004.0,15,408.08864855803927,76.709869651378,long_route;many_stations;high_uncertainty;historical_high_delay
+23478,KRISHNA EXPRESS,878.0,17,301.74223094652115,50.556546411851016,many_stations;high_uncertainty;historical_high_delay
+23880,VANDE BHARAT,1016.0,17,395.88125953620846,58.207336814344245,long_route;many_stations;high_uncertainty;historical_high_delay
+18401,PURI-OKHA WE,2779.0,41,344.7254586637731,103.04649317899674,long_route;many_stations;high_uncertainty;historical_high_delay
+27152,PRASHANTI EXP,926.0,17,267.7454404689602,55.45949812131894,long_route;many_stations;historical_high_delay
+22201,DURONTO EXPR,527.0,3,523.3016793848922,102.16746632121952,high_uncertainty;historical_high_delay
+26232,SEVEN HILLS EXP,905.0,17,303.6343877786393,54.04357305893292,long_route;many_stations;high_uncertainty;historical_high_delay
+28921,VANDE BHARAT,980.0,16,356.27385452487886,48.728443013626254,long_route;many_stations;high_uncertainty
+27711,CIRCAR EXPRESS,963.0,17,372.943490126024,45.09682084540971,long_route;many_stations;high_uncertainty
+16798,TIRUMALA EXP,940.0,17,365.8293994892943,42.083285498370834,long_route;many_stations;high_uncertainty
+23564,VIKRAMASIMHAPURI,899.0,17,268.4454953186492,31.451506949237245,many_stations
+21077,RAYALASEEMA EXP,975.0,15,265.7341703121119,75.51062034933135,long_route;many_stations;historical_high_delay
+16638,FALAKNUMA EXP,873.0,16,306.68758708854887,51.44909626887872,many_stations;high_uncertainty;historical_high_delay
+28304,VIKRAMASIMHAPURI,979.0,17,309.5865259028714,61.53978522832939,long_route;many_stations;high_uncertainty;historical_high_delay
+16622,PRASHANTI EXP,1127.0,17,352.3104437751834,60.68158401527971,long_route;many_stations;high_uncertainty;historical_high_delay
+19810,GOLCONDA EXP,900.0,14,296.31112455987056,46.334556946745984,long_route
+17615,KCG-MDU EXP,1283.0,23,369.2516303889236,51.908186406923846,long_route;many_stations;high_uncertainty;historical_high_delay
+25899,CHARMINAR EXP,963.0,17,280.2302700138716,30.738811879110067,long_route;many_stations
+15085,NARAYANADRI EXP,909.0,15,323.6396396862708,47.91301884957247,long_route;many_stations;high_uncertainty
+25220,PRASHANTI EXP,856.0,15,261.0945162112575,80.60624169344503,many_stations;historical_high_delay
+18915,CHARMINAR EXP,952.0,16,303.1376277801906,59.31566212947334,long_route;many_stations;high_uncertainty;historical_high_delay
+27680,GNT NS EXP,916.0,16,278.52969172430284,29.39104840390637,long_route;many_stations
+25687,GODAVARI EXPRES,913.0,17,258.8305019632514,28.42343744347419,long_route;many_stations
+14533,GODAVARI EXPRES,950.0,17,285.95874213296327,51.56994412894661,long_route;many_stations;historical_high_delay
+23103,RATNACHAL EXP,914.0,16,321.31109134657424,38.41268557762281,long_route;many_stations;high_uncertainty
+18486,INTERCITY EXP,957.0,15,389.24319297003376,52.87623173213567,long_route;many_stations;high_uncertainty;historical_high_delay
+28086,KRISHNA EXPRESS,932.0,17,380.0842399267088,43.18163738364654,long_route;many_stations;high_uncertainty

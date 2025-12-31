@@ -1,0 +1,1856 @@
+{
+  "stations": [
+    {
+      "code": "AB",
+      "name": "Ambur"
+    },
+    {
+      "code": "AD",
+      "name": "Adoni"
+    },
+    {
+      "code": "ADI",
+      "name": "Ahmedabad Jn"
+    },
+    {
+      "code": "AH",
+      "name": "Achhnera Jn"
+    },
+    {
+      "code": "AK",
+      "name": "Akola Jn"
+    },
+    {
+      "code": "AKAH",
+      "name": "AKAH"
+    },
+    {
+      "code": "AKP",
+      "name": "Anakapalle"
+    },
+    {
+      "code": "AKU",
+      "name": "AKU"
+    },
+    {
+      "code": "AKV",
+      "name": "Ankleshwar Jn"
+    },
+    {
+      "code": "AKVD",
+      "name": "Akividu"
+    },
+    {
+      "code": "AL",
+      "name": "AL"
+    },
+    {
+      "code": "ALAT",
+      "name": "Avuladatla"
+    },
+    {
+      "code": "ALM",
+      "name": "Alamanda"
+    },
+    {
+      "code": "AN",
+      "name": "Amalner"
+    },
+    {
+      "code": "ANB",
+      "name": "Ammanabrolu"
+    },
+    {
+      "code": "ANE",
+      "name": "Anantarajupet"
+    },
+    {
+      "code": "ANV",
+      "name": "Annavaram"
+    },
+    {
+      "code": "APL",
+      "name": "APL"
+    },
+    {
+      "code": "APT",
+      "name": "Anaparti"
+    },
+    {
+      "code": "ARK",
+      "name": "Arakku"
+    },
+    {
+      "code": "ARKV",
+      "name": "ARKV"
+    },
+    {
+      "code": "ASN",
+      "name": "Asansol Jn"
+    },
+    {
+      "code": "ASP",
+      "name": "ASP"
+    },
+    {
+      "code": "ATP",
+      "name": "Anantapur"
+    },
+    {
+      "code": "AVLI",
+      "name": "AVLI"
+    },
+    {
+      "code": "AXR",
+      "name": "AXR"
+    },
+    {
+      "code": "BAV",
+      "name": "BAV"
+    },
+    {
+      "code": "BBPM",
+      "name": "BBPM"
+    },
+    {
+      "code": "BD",
+      "name": "Badnera Jn"
+    },
+    {
+      "code": "BDPL",
+      "name": "BDPL"
+    },
+    {
+      "code": "BDVR",
+      "name": "Boddavara"
+    },
+    {
+      "code": "BE",
+      "name": "Bareilly"
+    },
+    {
+      "code": "BGH",
+      "name": "BGH"
+    },
+    {
+      "code": "BGHU",
+      "name": "Borraguhallu"
+    },
+    {
+      "code": "BGNP",
+      "name": "Banaganapalle"
+    },
+    {
+      "code": "BH",
+      "name": "Bharuch Jn"
+    },
+    {
+      "code": "BKP",
+      "name": "Bakhtiyarpur Jn"
+    },
+    {
+      "code": "BL",
+      "name": "Valsad"
+    },
+    {
+      "code": "BLL",
+      "name": "Bantanahal"
+    },
+    {
+      "code": "BLPE",
+      "name": "Balapalle"
+    },
+    {
+      "code": "BMD",
+      "name": "Bhimadolu"
+    },
+    {
+      "code": "BNL",
+      "name": "Bevinahalu"
+    },
+    {
+      "code": "BPP",
+      "name": "Bapatla"
+    },
+    {
+      "code": "BPY",
+      "name": "BPY"
+    },
+    {
+      "code": "BSP",
+      "name": "Bilaspur Jn"
+    },
+    {
+      "code": "BSPL",
+      "name": "BSPL"
+    },
+    {
+      "code": "BTT",
+      "name": "Bhatni Jn"
+    },
+    {
+      "code": "BTTR",
+      "name": "Bitragunta"
+    },
+    {
+      "code": "BTVA",
+      "name": "BTVA"
+    },
+    {
+      "code": "BUM",
+      "name": "BUM"
+    },
+    {
+      "code": "BV",
+      "name": "Babhnan"
+    },
+    {
+      "code": "BVM",
+      "name": "BVM"
+    },
+    {
+      "code": "BVO",
+      "name": "BVO"
+    },
+    {
+      "code": "BVRM",
+      "name": "Bhimavaram Jn"
+    },
+    {
+      "code": "BVRT",
+      "name": "Bhimavaram Town"
+    },
+    {
+      "code": "BZA",
+      "name": "Vijayawada Jn"
+    },
+    {
+      "code": "CBM",
+      "name": "Cumbum"
+    },
+    {
+      "code": "CC",
+      "name": "Chauri Chaura"
+    },
+    {
+      "code": "CCA",
+      "name": "Chigicherla"
+    },
+    {
+      "code": "CCI",
+      "name": "Chinnekuntapali"
+    },
+    {
+      "code": "CCT",
+      "name": "Kakinada Town"
+    },
+    {
+      "code": "CD",
+      "name": "Chandrapur"
+    },
+    {
+      "code": "CEL",
+      "name": "CEL"
+    },
+    {
+      "code": "CEM",
+      "name": "CEM"
+    },
+    {
+      "code": "CGI",
+      "name": "Chandragiri"
+    },
+    {
+      "code": "CH",
+      "name": "Chandausi Jn"
+    },
+    {
+      "code": "CHE",
+      "name": "Srikakulam Road"
+    },
+    {
+      "code": "CIV",
+      "name": "Chinnaravuru"
+    },
+    {
+      "code": "CJM",
+      "name": "Chinna Ganjam"
+    },
+    {
+      "code": "CLPE",
+      "name": "Challavaripalle"
+    },
+    {
+      "code": "CLX",
+      "name": "Chirala"
+    },
+    {
+      "code": "CMDP",
+      "name": "Chimidipalli"
+    },
+    {
+      "code": "COA",
+      "name": "Kakinada Port"
+    },
+    {
+      "code": "CPL",
+      "name": "CPL"
+    },
+    {
+      "code": "CPP",
+      "name": "Chipurupalle"
+    },
+    {
+      "code": "CTO",
+      "name": "Chittoor"
+    },
+    {
+      "code": "CTPR",
+      "name": "CTPR"
+    },
+    {
+      "code": "CU",
+      "name": "CU"
+    },
+    {
+      "code": "CVV",
+      "name": "CVV"
+    },
+    {
+      "code": "DCU",
+      "name": "Damalcheruvu"
+    },
+    {
+      "code": "DD",
+      "name": "Daund Jn"
+    },
+    {
+      "code": "DG",
+      "name": "Dindigul Jn"
+    },
+    {
+      "code": "DGB",
+      "name": "DGB"
+    },
+    {
+      "code": "DHN",
+      "name": "Dhanbad Jn"
+    },
+    {
+      "code": "DHNE",
+      "name": "Dhone"
+    },
+    {
+      "code": "DIG",
+      "name": "Duggirala"
+    },
+    {
+      "code": "DKD",
+      "name": "Donakonda"
+    },
+    {
+      "code": "DKSA",
+      "name": "DKSA"
+    },
+    {
+      "code": "DMM",
+      "name": "Dharmavaram Jn"
+    },
+    {
+      "code": "DNV",
+      "name": "Donkinavalasa"
+    },
+    {
+      "code": "DO",
+      "name": "Dausa"
+    },
+    {
+      "code": "DPD",
+      "name": "Dosapadu"
+    },
+    {
+      "code": "DPU",
+      "name": "Diphu"
+    },
+    {
+      "code": "DUU",
+      "name": "DUU"
+    },
+    {
+      "code": "DVD",
+      "name": "Duvvada"
+    },
+    {
+      "code": "DVR",
+      "name": "DVR"
+    },
+    {
+      "code": "DWP",
+      "name": "Dwarapudi"
+    },
+    {
+      "code": "ED",
+      "name": "Erode Jn"
+    },
+    {
+      "code": "EDD",
+      "name": "EDD"
+    },
+    {
+      "code": "EE",
+      "name": "Eluru"
+    },
+    {
+      "code": "EKM",
+      "name": "Ekambarakuppam"
+    },
+    {
+      "code": "ESV",
+      "name": "ESV"
+    },
+    {
+      "code": "ET",
+      "name": "Itarsi Jn"
+    },
+    {
+      "code": "G",
+      "name": "Gondia Jn"
+    },
+    {
+      "code": "GB",
+      "name": "Gauri Bazar"
+    },
+    {
+      "code": "GD",
+      "name": "Gonda Jn"
+    },
+    {
+      "code": "GDE",
+      "name": "Garladinne"
+    },
+    {
+      "code": "GDP",
+      "name": "Gudupulli"
+    },
+    {
+      "code": "GDR",
+      "name": "Gudur Jn"
+    },
+    {
+      "code": "GDV",
+      "name": "Gudivada Jn"
+    },
+    {
+      "code": "GGN",
+      "name": "Gurgaon"
+    },
+    {
+      "code": "GGNP",
+      "name": "GGNP"
+    },
+    {
+      "code": "GH",
+      "name": "Ghughuli"
+    },
+    {
+      "code": "GID",
+      "name": "Giddalur"
+    },
+    {
+      "code": "GJJ",
+      "name": "Gajjelakonda"
+    },
+    {
+      "code": "GKM",
+      "name": "GKM"
+    },
+    {
+      "code": "GLP",
+      "name": "Gollaprolu"
+    },
+    {
+      "code": "GMA",
+      "name": "GMA"
+    },
+    {
+      "code": "GMDA",
+      "name": "Gumada"
+    },
+    {
+      "code": "GNN",
+      "name": "GNN"
+    },
+    {
+      "code": "GNT",
+      "name": "Guntur Jn"
+    },
+    {
+      "code": "GP",
+      "name": "Rajgangpur"
+    },
+    {
+      "code": "GPDE",
+      "name": "GPDE"
+    },
+    {
+      "code": "GPI",
+      "name": "Gajapatinagaram"
+    },
+    {
+      "code": "GPJ",
+      "name": "GPJ"
+    },
+    {
+      "code": "GPY",
+      "name": "Gangayapalle"
+    },
+    {
+      "code": "GR",
+      "name": "GR"
+    },
+    {
+      "code": "GRBL",
+      "name": "Garudubilli"
+    },
+    {
+      "code": "GTL",
+      "name": "Guntakal Jn"
+    },
+    {
+      "code": "GTLM",
+      "name": "Gotlam"
+    },
+    {
+      "code": "GVA",
+      "name": "Ganguvada"
+    },
+    {
+      "code": "GVI",
+      "name": "Garividi"
+    },
+    {
+      "code": "GVL",
+      "name": "Gudlavalleru"
+    },
+    {
+      "code": "GVMH",
+      "name": "GVMH"
+    },
+    {
+      "code": "GWM",
+      "name": "GWM"
+    },
+    {
+      "code": "HCM",
+      "name": "HCM"
+    },
+    {
+      "code": "HD",
+      "name": "Harda"
+    },
+    {
+      "code": "HNMN",
+      "name": "Hanuman Station"
+    },
+    {
+      "code": "HUP",
+      "name": "Hindupur"
+    },
+    {
+      "code": "HVM",
+      "name": "HVM"
+    },
+    {
+      "code": "HW",
+      "name": "Haridwar Jn"
+    },
+    {
+      "code": "HWH",
+      "name": "Howrah Jn"
+    },
+    {
+      "code": "HX",
+      "name": "Cuddapah"
+    },
+    {
+      "code": "IDP",
+      "name": "Indupalli"
+    },
+    {
+      "code": "IPM",
+      "name": "Ichchpuram"
+    },
+    {
+      "code": "JAQ",
+      "name": "JAQ"
+    },
+    {
+      "code": "JBK",
+      "name": "Jgmbla Kshnprm"
+    },
+    {
+      "code": "JKO",
+      "name": "Jakkalacheruvu"
+    },
+    {
+      "code": "JL",
+      "name": "Jalgaon Jn"
+    },
+    {
+      "code": "JP",
+      "name": "Jaipur"
+    },
+    {
+      "code": "JTJ",
+      "name": "Jolarpettai"
+    },
+    {
+      "code": "JU",
+      "name": "Jodhpur Jn"
+    },
+    {
+      "code": "JUR",
+      "name": "Juturu"
+    },
+    {
+      "code": "KAQ",
+      "name": "KAQ"
+    },
+    {
+      "code": "KBA",
+      "name": "Kurabalakota"
+    },
+    {
+      "code": "KBM",
+      "name": "Kotabommali"
+    },
+    {
+      "code": "KCC",
+      "name": "Krishna Canal"
+    },
+    {
+      "code": "KCD",
+      "name": "Kurichedu"
+    },
+    {
+      "code": "KCI",
+      "name": "Kalikiri"
+    },
+    {
+      "code": "KCM",
+      "name": "Kalasamudram"
+    },
+    {
+      "code": "KDP",
+      "name": "Kondapuram"
+    },
+    {
+      "code": "KDT",
+      "name": "Khadarpet"
+    },
+    {
+      "code": "KDUH",
+      "name": "KDUH"
+    },
+    {
+      "code": "KEF",
+      "name": "Krishnammakona"
+    },
+    {
+      "code": "KGL",
+      "name": "Kupgal"
+    },
+    {
+      "code": "KHT",
+      "name": "Sri Kalahasti"
+    },
+    {
+      "code": "KI",
+      "name": "Kondapalli"
+    },
+    {
+      "code": "KIT",
+      "name": "Khallikot"
+    },
+    {
+      "code": "KJJ",
+      "name": "KJJ"
+    },
+    {
+      "code": "KKLR",
+      "name": "Kaikalur"
+    },
+    {
+      "code": "KLD",
+      "name": "Khalilabad"
+    },
+    {
+      "code": "KLDI",
+      "name": "KLDI"
+    },
+    {
+      "code": "KLKA",
+      "name": "Koilakuntla"
+    },
+    {
+      "code": "KLU",
+      "name": "Kalluru Jn"
+    },
+    {
+      "code": "KLX",
+      "name": "KLX"
+    },
+    {
+      "code": "KMX",
+      "name": "Komatipalli"
+    },
+    {
+      "code": "KNLP",
+      "name": "Kanamalo Palle"
+    },
+    {
+      "code": "KNRT",
+      "name": "Kuneru"
+    },
+    {
+      "code": "KO",
+      "name": "Kosgi"
+    },
+    {
+      "code": "KOU",
+      "name": "Koduru"
+    },
+    {
+      "code": "KOVH",
+      "name": "KOVH"
+    },
+    {
+      "code": "KP",
+      "name": "Kamptee"
+    },
+    {
+      "code": "KPD",
+      "name": "Katpadi Jn"
+    },
+    {
+      "code": "KPL",
+      "name": "Kantakapalle"
+    },
+    {
+      "code": "KPLH",
+      "name": "KPLH"
+    },
+    {
+      "code": "KPLL",
+      "name": "KPLL"
+    },
+    {
+      "code": "KPN",
+      "name": "Kuppam"
+    },
+    {
+      "code": "KPU",
+      "name": "Krishnapuram"
+    },
+    {
+      "code": "KQA",
+      "name": "Kondagunta"
+    },
+    {
+      "code": "KRNT",
+      "name": "Kurnool City"
+    },
+    {
+      "code": "KRY",
+      "name": "Kadiri"
+    },
+    {
+      "code": "KRYP",
+      "name": "Kadridevarpalli"
+    },
+    {
+      "code": "KSK",
+      "name": "KSK"
+    },
+    {
+      "code": "KSTE",
+      "name": "KSTE"
+    },
+    {
+      "code": "KT",
+      "name": "Kumta"
+    },
+    {
+      "code": "KTCR",
+      "name": "KTCR"
+    },
+    {
+      "code": "KTV",
+      "name": "Kottavalasa"
+    },
+    {
+      "code": "KUK",
+      "name": "Korukonda"
+    },
+    {
+      "code": "KUMU",
+      "name": "KUMU"
+    },
+    {
+      "code": "KUR",
+      "name": "Khurda Road Jn"
+    },
+    {
+      "code": "KVDU",
+      "name": "KVDU"
+    },
+    {
+      "code": "KVLS",
+      "name": "Karakavalasa"
+    },
+    {
+      "code": "KVM",
+      "name": "KVM"
+    },
+    {
+      "code": "KVR",
+      "name": "Kovvur"
+    },
+    {
+      "code": "KVZ",
+      "name": "Kavali"
+    },
+    {
+      "code": "KYM",
+      "name": "Kadiyam"
+    },
+    {
+      "code": "KYN",
+      "name": "Kalyan Jn"
+    },
+    {
+      "code": "KYND",
+      "name": "Kalyanadurga"
+    },
+    {
+      "code": "LIN",
+      "name": "LIN"
+    },
+    {
+      "code": "LKDU",
+      "name": "Lankalakoderu"
+    },
+    {
+      "code": "LKSH",
+      "name": "LKSH"
+    },
+    {
+      "code": "MADU",
+      "name": "MADU"
+    },
+    {
+      "code": "MAG",
+      "name": "Mangalagiri"
+    },
+    {
+      "code": "MALM",
+      "name": "Manthralayam Rd"
+    },
+    {
+      "code": "MAR",
+      "name": "Mulanur"
+    },
+    {
+      "code": "MAS",
+      "name": "Mgr Chennai Ctl"
+    },
+    {
+      "code": "MB",
+      "name": "Moradabad"
+    },
+    {
+      "code": "MBD",
+      "name": "MBD"
+    },
+    {
+      "code": "MBL",
+      "name": "MBL"
+    },
+    {
+      "code": "MCLA",
+      "name": "MCLA"
+    },
+    {
+      "code": "MCLE",
+      "name": "MCLE"
+    },
+    {
+      "code": "MCU",
+      "name": "Mulacalacheruvu"
+    },
+    {
+      "code": "MCVM",
+      "name": "MCVM"
+    },
+    {
+      "code": "MDKU",
+      "name": "MDKU"
+    },
+    {
+      "code": "MDP",
+      "name": "Madhupur Jn"
+    },
+    {
+      "code": "MDU",
+      "name": "Madurai Jn"
+    },
+    {
+      "code": "MDUN",
+      "name": "Madhuranagar"
+    },
+    {
+      "code": "MDVL",
+      "name": "Mandavalli"
+    },
+    {
+      "code": "MGPR",
+      "name": "MGPR"
+    },
+    {
+      "code": "MGV",
+      "name": "Molagavalli"
+    },
+    {
+      "code": "MIPM",
+      "name": "Marripalem Ph"
+    },
+    {
+      "code": "MKJ",
+      "name": "MKJ"
+    },
+    {
+      "code": "MLGT",
+      "name": "MLGT"
+    },
+    {
+      "code": "MLK",
+      "name": "Malkapuram"
+    },
+    {
+      "code": "MLU",
+      "name": "MLU"
+    },
+    {
+      "code": "MMPL",
+      "name": "Mantapampalle"
+    },
+    {
+      "code": "MMS",
+      "name": "Mandasa Road"
+    },
+    {
+      "code": "MNP",
+      "name": "Mananpur"
+    },
+    {
+      "code": "MOO",
+      "name": "Muddanuru"
+    },
+    {
+      "code": "MPL",
+      "name": "Madanapalle Rd"
+    },
+    {
+      "code": "MPT",
+      "name": "Mangalampeta"
+    },
+    {
+      "code": "MRK",
+      "name": "Markapur Road"
+    },
+    {
+      "code": "MRM",
+      "name": "Mamanduru"
+    },
+    {
+      "code": "MTM",
+      "name": "Machilipatnam"
+    },
+    {
+      "code": "MUK",
+      "name": "MUK"
+    },
+    {
+      "code": "MUM",
+      "name": "Mangapatnam"
+    },
+    {
+      "code": "MVA",
+      "name": "Malakavemula H"
+    },
+    {
+      "code": "MVP",
+      "name": "MVP"
+    },
+    {
+      "code": "NASP",
+      "name": "Narasingapalli"
+    },
+    {
+      "code": "NBM",
+      "name": "NBM"
+    },
+    {
+      "code": "NBR",
+      "name": "Namburu"
+    },
+    {
+      "code": "NCE",
+      "name": "Nlachrvuru East"
+    },
+    {
+      "code": "NCU",
+      "name": "Nallacheruvu"
+    },
+    {
+      "code": "ND",
+      "name": "Nadiad Jn"
+    },
+    {
+      "code": "NDD",
+      "name": "Nidadavolu Jn"
+    },
+    {
+      "code": "NDKD",
+      "name": "Nadikudi Jn"
+    },
+    {
+      "code": "NDL",
+      "name": "Nandyal"
+    },
+    {
+      "code": "NDM",
+      "name": "Nidamanuru"
+    },
+    {
+      "code": "NDPU",
+      "name": "Nudurupadu"
+    },
+    {
+      "code": "NG",
+      "name": "Nagari"
+    },
+    {
+      "code": "NGM",
+      "name": "NGM"
+    },
+    {
+      "code": "NGNT",
+      "name": "New Guntur"
+    },
+    {
+      "code": "NK",
+      "name": "Nashik Road"
+    },
+    {
+      "code": "NKD",
+      "name": "Nekonda"
+    },
+    {
+      "code": "NKDO",
+      "name": "Nakkanadoddi"
+    },
+    {
+      "code": "NLPD",
+      "name": "Nallapadu"
+    },
+    {
+      "code": "NLR",
+      "name": "Nellore"
+    },
+    {
+      "code": "NLS",
+      "name": "NLS"
+    },
+    {
+      "code": "NML",
+      "name": "NML"
+    },
+    {
+      "code": "NMLU",
+      "name": "NMLU"
+    },
+    {
+      "code": "NOSM",
+      "name": "NOSM"
+    },
+    {
+      "code": "NRE",
+      "name": "Nandalur"
+    },
+    {
+      "code": "NRP",
+      "name": "Narsipatnam Rd"
+    },
+    {
+      "code": "NRR",
+      "name": "NRR"
+    },
+    {
+      "code": "NRT",
+      "name": "Narasaraopet"
+    },
+    {
+      "code": "NS",
+      "name": "Narasapur"
+    },
+    {
+      "code": "NSPH",
+      "name": "NSPH"
+    },
+    {
+      "code": "NUJ",
+      "name": "NUJ"
+    },
+    {
+      "code": "NWP",
+      "name": "Naupada Jn"
+    },
+    {
+      "code": "NYP",
+      "name": "Nayudupeta"
+    },
+    {
+      "code": "NZD",
+      "name": "Nuzvid"
+    },
+    {
+      "code": "OBM",
+      "name": "Obalapuram"
+    },
+    {
+      "code": "OBVP",
+      "name": "Obulavaripalli"
+    },
+    {
+      "code": "ODUR",
+      "name": "ODUR"
+    },
+    {
+      "code": "OGL",
+      "name": "Ongole"
+    },
+    {
+      "code": "OTR",
+      "name": "Moturu"
+    },
+    {
+      "code": "PAK",
+      "name": "Pakala Jn"
+    },
+    {
+      "code": "PAP",
+      "name": "Pithapuram"
+    },
+    {
+      "code": "PAV",
+      "name": "Pedana"
+    },
+    {
+      "code": "PAVP",
+      "name": "PAVP"
+    },
+    {
+      "code": "PCL",
+      "name": "Pulicherla"
+    },
+    {
+      "code": "PCU",
+      "name": "Putlacheruvu"
+    },
+    {
+      "code": "PDGL",
+      "name": "PDGL"
+    },
+    {
+      "code": "PDKN",
+      "name": "Pedakakani Halt"
+    },
+    {
+      "code": "PDL",
+      "name": "Pendekallu"
+    },
+    {
+      "code": "PDT",
+      "name": "Pendurti"
+    },
+    {
+      "code": "PDU",
+      "name": "Ponduru"
+    },
+    {
+      "code": "PEL",
+      "name": "PEL"
+    },
+    {
+      "code": "PGDI",
+      "name": "PGDI"
+    },
+    {
+      "code": "PGRL",
+      "name": "Piduguralla"
+    },
+    {
+      "code": "PGU",
+      "name": "Padugupadu"
+    },
+    {
+      "code": "PHM",
+      "name": "Patapatnam"
+    },
+    {
+      "code": "PIL",
+      "name": "Piler"
+    },
+    {
+      "code": "PKD",
+      "name": "Penukonda"
+    },
+    {
+      "code": "PKO",
+      "name": "Palakollu"
+    },
+    {
+      "code": "PKPU",
+      "name": "PKPU"
+    },
+    {
+      "code": "PLU",
+      "name": "Patakottacheru"
+    },
+    {
+      "code": "PM",
+      "name": "Palam"
+    },
+    {
+      "code": "PMD",
+      "name": "PMD"
+    },
+    {
+      "code": "PMT",
+      "name": "Pullampet"
+    },
+    {
+      "code": "PNM",
+      "name": "Panyam"
+    },
+    {
+      "code": "POA",
+      "name": "Pallikona"
+    },
+    {
+      "code": "PPM",
+      "name": "Phirangipuram"
+    },
+    {
+      "code": "PRDT",
+      "name": "Proddatur"
+    },
+    {
+      "code": "PRH",
+      "name": "Powerpet"
+    },
+    {
+      "code": "PSA",
+      "name": "Palasa"
+    },
+    {
+      "code": "PSDA",
+      "name": "PSDA"
+    },
+    {
+      "code": "PSLP",
+      "name": "PSLP"
+    },
+    {
+      "code": "PSPY",
+      "name": "Prasannayanapal"
+    },
+    {
+      "code": "PTT",
+      "name": "PTT"
+    },
+    {
+      "code": "PUA",
+      "name": "PUA"
+    },
+    {
+      "code": "PUDI",
+      "name": "PUDI"
+    },
+    {
+      "code": "PUN",
+      "name": "Pundi"
+    },
+    {
+      "code": "PUT",
+      "name": "Puttur"
+    },
+    {
+      "code": "PVP",
+      "name": "Parvatipuram"
+    },
+    {
+      "code": "PVPT",
+      "name": "Parvatipuram Tn"
+    },
+    {
+      "code": "PYA",
+      "name": "PYA"
+    },
+    {
+      "code": "PYX",
+      "name": "PYX"
+    },
+    {
+      "code": "R",
+      "name": "Raipur Jn"
+    },
+    {
+      "code": "RAL",
+      "name": "Repalle"
+    },
+    {
+      "code": "RAM",
+      "name": "RAM"
+    },
+    {
+      "code": "RBCS",
+      "name": "RBCS"
+    },
+    {
+      "code": "RBL",
+      "name": "Rae Bareli Jn"
+    },
+    {
+      "code": "RC",
+      "name": "Raichur Jn"
+    },
+    {
+      "code": "RCA",
+      "name": "RCA"
+    },
+    {
+      "code": "RCG",
+      "name": "RCG"
+    },
+    {
+      "code": "RDG",
+      "name": "Rayadrug"
+    },
+    {
+      "code": "RE",
+      "name": "Rewari"
+    },
+    {
+      "code": "REG",
+      "name": "REG"
+    },
+    {
+      "code": "REM",
+      "name": "REM"
+    },
+    {
+      "code": "RG",
+      "name": "Rajghat Narora"
+    },
+    {
+      "code": "RGDA",
+      "name": "Rayagada"
+    },
+    {
+      "code": "RJP",
+      "name": "Razampeta"
+    },
+    {
+      "code": "RJY",
+      "name": "Rajahmundry"
+    },
+    {
+      "code": "RK",
+      "name": "Roorkee"
+    },
+    {
+      "code": "RLG",
+      "name": "RLG"
+    },
+    {
+      "code": "RLL",
+      "name": "Regadipalli"
+    },
+    {
+      "code": "RLO",
+      "name": "Rayalcheruvu"
+    },
+    {
+      "code": "RMV",
+      "name": "Ramavarappadu"
+    },
+    {
+      "code": "RN",
+      "name": "Ratnagiri"
+    },
+    {
+      "code": "RPL",
+      "name": "RPL"
+    },
+    {
+      "code": "RPRL",
+      "name": "RPRL"
+    },
+    {
+      "code": "RTA",
+      "name": "Ruthiyai"
+    },
+    {
+      "code": "RU",
+      "name": "Renigunta Jn"
+    },
+    {
+      "code": "RYP",
+      "name": "Rayanapadu"
+    },
+    {
+      "code": "SA",
+      "name": "Salem Jn"
+    },
+    {
+      "code": "SAB",
+      "name": "Santamagulur"
+    },
+    {
+      "code": "SAP",
+      "name": "Sattenapalle"
+    },
+    {
+      "code": "SC",
+      "name": "Secunderabad Jn"
+    },
+    {
+      "code": "SCM",
+      "name": "Simhachalam"
+    },
+    {
+      "code": "SDM",
+      "name": "SDM"
+    },
+    {
+      "code": "SDV",
+      "name": "Somidevipalle"
+    },
+    {
+      "code": "SF",
+      "name": "Settigunta"
+    },
+    {
+      "code": "SGDM",
+      "name": "Sigadam"
+    },
+    {
+      "code": "SGKM",
+      "name": "Srungavruksham"
+    },
+    {
+      "code": "SIE",
+      "name": "SIE"
+    },
+    {
+      "code": "SJL",
+      "name": "Sgm Jagarlamudi"
+    },
+    {
+      "code": "SJMA",
+      "name": "SJMA"
+    },
+    {
+      "code": "SKM",
+      "name": "Singarayakonda"
+    },
+    {
+      "code": "SL",
+      "name": "Surathkal"
+    },
+    {
+      "code": "SLM",
+      "name": "Somalapuram"
+    },
+    {
+      "code": "SLO",
+      "name": "Samalkot Jn"
+    },
+    {
+      "code": "SM",
+      "name": "Samsi"
+    },
+    {
+      "code": "SNM",
+      "name": "Sitanagaram"
+    },
+    {
+      "code": "SPE",
+      "name": "Sullurupeta"
+    },
+    {
+      "code": "SPF",
+      "name": "SPF"
+    },
+    {
+      "code": "SPN",
+      "name": "Shahjehanpur"
+    },
+    {
+      "code": "SPT",
+      "name": "Sompeta"
+    },
+    {
+      "code": "SRPM",
+      "name": "SRPM"
+    },
+    {
+      "code": "SSPN",
+      "name": "Sai P Nilayam"
+    },
+    {
+      "code": "ST",
+      "name": "Surat"
+    },
+    {
+      "code": "STUR",
+      "name": "STUR"
+    },
+    {
+      "code": "STVA",
+      "name": "STVA"
+    },
+    {
+      "code": "SUD",
+      "name": "Sudhani"
+    },
+    {
+      "code": "SUDV",
+      "name": "SUDV"
+    },
+    {
+      "code": "SUP",
+      "name": "Shrungavarpukta"
+    },
+    {
+      "code": "SUPP",
+      "name": "SUPP"
+    },
+    {
+      "code": "SV",
+      "name": "Siwan Jn"
+    },
+    {
+      "code": "SVF",
+      "name": "SVF"
+    },
+    {
+      "code": "SVPM",
+      "name": "SVPM"
+    },
+    {
+      "code": "SYM",
+      "name": "Savalyapuram"
+    },
+    {
+      "code": "TAC",
+      "name": "Taticherla"
+    },
+    {
+      "code": "TAT",
+      "name": "Tummanamgutta"
+    },
+    {
+      "code": "TCNR",
+      "name": "TCNR"
+    },
+    {
+      "code": "TCR",
+      "name": "Thrisur"
+    },
+    {
+      "code": "TDD",
+      "name": "Tadepalligudem"
+    },
+    {
+      "code": "TDK",
+      "name": "TDK"
+    },
+    {
+      "code": "TEK",
+      "name": "Tekkali"
+    },
+    {
+      "code": "TEL",
+      "name": "Tenali Jn"
+    },
+    {
+      "code": "TGL",
+      "name": "Tuggali"
+    },
+    {
+      "code": "TGU",
+      "name": "Tarigoppula"
+    },
+    {
+      "code": "TIM",
+      "name": "Timmanacherla"
+    },
+    {
+      "code": "TIU",
+      "name": "Tilaru"
+    },
+    {
+      "code": "TK",
+      "name": "Tumakuru"
+    },
+    {
+      "code": "TKBN",
+      "name": "Tsakibanda"
+    },
+    {
+      "code": "TKU",
+      "name": "Tanakallu"
+    },
+    {
+      "code": "TLU",
+      "name": "Tarlupadu"
+    },
+    {
+      "code": "TMB",
+      "name": "Temburu"
+    },
+    {
+      "code": "TMLU",
+      "name": "TMLU"
+    },
+    {
+      "code": "TNKU",
+      "name": "Tanuku"
+    },
+    {
+      "code": "TNR",
+      "name": "Tanguturu"
+    },
+    {
+      "code": "TNRU",
+      "name": "TNRU"
+    },
+    {
+      "code": "TOU",
+      "name": "TOU"
+    },
+    {
+      "code": "TPT",
+      "name": "Tirupattur Jn"
+    },
+    {
+      "code": "TPTY",
+      "name": "Tirupati"
+    },
+    {
+      "code": "TPW",
+      "name": "Tirupati W Hlt"
+    },
+    {
+      "code": "TSR",
+      "name": "Tsunduru"
+    },
+    {
+      "code": "TU",
+      "name": "Tadipatri"
+    },
+    {
+      "code": "TUNI",
+      "name": "Tuni"
+    },
+    {
+      "code": "UD",
+      "name": "Udupi"
+    },
+    {
+      "code": "UKD",
+      "name": "UKD"
+    },
+    {
+      "code": "UNDI",
+      "name": "Undi"
+    },
+    {
+      "code": "UPD",
+      "name": "UPD"
+    },
+    {
+      "code": "UPL",
+      "name": "Uppalur"
+    },
+    {
+      "code": "VBL",
+      "name": "Bobbili"
+    },
+    {
+      "code": "VDD",
+      "name": "Vendodu"
+    },
+    {
+      "code": "VDE",
+      "name": "Vedayapalem"
+    },
+    {
+      "code": "VDI",
+      "name": "Veldurti"
+    },
+    {
+      "code": "VG",
+      "name": "Viramgam Jn"
+    },
+    {
+      "code": "VGA",
+      "name": "VGA"
+    },
+    {
+      "code": "VGH",
+      "name": "VGH"
+    },
+    {
+      "code": "VGT",
+      "name": "VGT"
+    },
+    {
+      "code": "VH",
+      "name": "VH"
+    },
+    {
+      "code": "VJA",
+      "name": "Vejandla"
+    },
+    {
+      "code": "VKI",
+      "name": "Venkatagiri"
+    },
+    {
+      "code": "VKN",
+      "name": "Vinukonda"
+    },
+    {
+      "code": "VKT",
+      "name": "Venkatachalam"
+    },
+    {
+      "code": "VKZ",
+      "name": "VKZ"
+    },
+    {
+      "code": "VLD",
+      "name": "Vayalpad"
+    },
+    {
+      "code": "VLV",
+      "name": "VLV"
+    },
+    {
+      "code": "VM",
+      "name": "Villupuram Jn"
+    },
+    {
+      "code": "VMD",
+      "name": "VMD"
+    },
+    {
+      "code": "VML",
+      "name": "Vemulapadu"
+    },
+    {
+      "code": "VMU",
+      "name": "Vemuru"
+    },
+    {
+      "code": "VN",
+      "name": "Vaniyambadi"
+    },
+    {
+      "code": "VND",
+      "name": "VND"
+    },
+    {
+      "code": "VNM",
+      "name": "Ontimitta"
+    },
+    {
+      "code": "VPG",
+      "name": "VPG"
+    },
+    {
+      "code": "VPL",
+      "name": "Venkatampalle"
+    },
+    {
+      "code": "VPT",
+      "name": "Virudunagar Jn"
+    },
+    {
+      "code": "VPU",
+      "name": "VPU"
+    },
+    {
+      "code": "VS",
+      "name": "Vishvamitri"
+    },
+    {
+      "code": "VSKP",
+      "name": "Visakhapatnam"
+    },
+    {
+      "code": "VTM",
+      "name": "Vetapalem"
+    },
+    {
+      "code": "VZM",
+      "name": "Vizianagram Jn"
+    },
+    {
+      "code": "WL",
+      "name": "Warangal"
+    },
+    {
+      "code": "YA",
+      "name": "Yerraguntla"
+    },
+    {
+      "code": "YG",
+      "name": "Yadgir"
+    },
+    {
+      "code": "YGD",
+      "name": "Yerragudipad"
+    },
+    {
+      "code": "YLK",
+      "name": "Yellakaru"
+    },
+    {
+      "code": "YPD",
+      "name": "Yerpedu"
+    },
+    {
+      "code": "ZPI",
+      "name": "ZPI"
+    },
+    {
+      "code": "ZPL",
+      "name": "Zangalapalle"
+    }
+  ]
+}

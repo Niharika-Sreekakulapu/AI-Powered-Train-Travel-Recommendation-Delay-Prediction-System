@@ -1,0 +1,63 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\begin{document}
+
+\title{AI‑Powered Train Travel Recommendation and Delay Prediction System}
+
+\author{
+\IEEEauthorblockN{Niharika Sreekakulapu}
+\IEEEauthorblockA{Dept. name of organization (Affiliation)\\
+Name of organization (Affiliation)\\
+City, Country\\
+niharika.s@example.edu}
+\\
+\IEEEauthorblockN{Leela Shakunya Devi}
+\IEEEauthorblockA{Dept. name of organization (Affiliation)\\
+Name of organization (Affiliation)\\
+City, Country\\
+leela.shakunya@example.org}
+\\
+\IEEEauthorblockN{Srilakshmi}
+\IEEEauthorblockA{Dept. name of organization (Affiliation)\\
+Name of organization (Affiliation)\\
+City, Country\\
+srilakshmi.r@example.edu}
+\IEEEauthorblockN{Jenith Rahul}
+\IEEEauthorblockA{Dept. name of organization (Affiliation)\\
+Name of organization (Affiliation)\\
+City, Country\\
+jenith.rahul@example.com}
+}
+
+\maketitle
+
+\begin{abstract}
+We present TrainDelay AI, an end‑to‑end system for train delay prediction and travel recommendation. The pipeline includes data curation and imputation, feature engineering, RandomForest regression for delay estimation, calibrated conformal prediction intervals for uncertainty quantification, and explainable recommendations via per‑prediction feature contributions and a risk score. On the demo dataset, the model achieves MAE ≈ 3.47 minutes and R\textsuperscript{2} ≈ 0.9826. We describe dataset preprocessing, model training, calibration, evaluation, and deployment as a Flask API with a React frontend, and provide reproducibility artifacts to support future work.
+\end{abstract}
+
+\begin{IEEEkeywords}
+train delay prediction, Random Forest, conformal prediction, explainability, travel recommendation
+\end{IEEEkeywords}
+
+\input{sections/intro}
+\input{sections/related}
+\input{sections/data}
+\input{sections/methods}
+\input{sections/experiments}
+\input{sections/deployment}
+\input{sections/discussion}
+\input{sections/conclusion}
+
+\section*{Acknowledgment}
+We thank the project contributors and maintainers. Add funding / acknowledgement details here.
+
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\end{document}

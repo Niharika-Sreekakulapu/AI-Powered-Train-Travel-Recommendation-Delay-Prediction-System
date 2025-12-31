@@ -1,0 +1,31 @@
+Title: AI‑Powered Train Travel Recommendation and Delay Prediction System
+Authors: Niharika Sreekakulapu <niharika.s@example.edu>, Leela Shakunya Devi <leela.shakunya@example.org>, Srilakshmi <srilakshmi.r@example.edu>, Jenith Rahul <jenith.rahul@example.com>
+
+Abstract:
+We present TrainDelay AI, an end-to-end system for train delay prediction and travel recommendation. The pipeline includes data curation and imputation, feature engineering, RandomForest regression for delay estimation, calibrated conformal prediction intervals for uncertainty quantification, and explainable recommendations via per-prediction feature contributions and a risk score. On the demo dataset, the model achieves MAE ≈ 3.47 minutes and R^2 ≈ 0.9826. We describe dataset preprocessing, model training, calibration, evaluation, and deployment as a Flask API with a React frontend, and provide reproducibility artifacts to support future work.
+
+Introduction:
+Accurate short-term train delay prediction helps passengers and operators make informed decisions and reduces travel risk. Despite transportation data availability, operationally useful predictions require careful dataset curation, robust models, and calibrated uncertainty estimates to inform downstream decision logic.
+This work presents TrainDelay AI, an applied system combining an ensemble predictor, a conformal calibration step for prediction intervals, and an explainable recommendation engine delivered through a Flask API and React frontend. Our contributions are: a complete reproducible pipeline; integration of calibrated conformal intervals and imputation flagging; and explainable recommendations and a risk score.
+
+Related Work:
+Ensemble methods such as Random Forests and gradient boosting are commonly used for transportation forecasting tasks due to their robustness and interpretability. Uncertainty quantification methods, including split-conformal prediction, provide prediction intervals with finite-sample coverage guarantees and have seen increased use in applied decision systems. Explainability techniques such as SHAP help surface per-prediction feature contributions and increase trust in model outputs.
+
+Data and Preprocessing:
+The project uses a curated route-level dataset stored in data/. The demo dataset contains roughly 250+ route records with features including train id, source, destination, distance, day of week, month, season, weather condition, price, and historical average delay. Key preprocessing steps include constructing route as source-destination, scaling numeric features, encoding categorical features, applying imputation pipelines for missing RailRadar features and flagging imputed values, and producing conformal calibration splits to compute 95% intervals.
+
+Methods:
+Modeling: RandomForestRegressor trained on engineered features (route, distance, day, month, season, weather) with demo hyperparameters n_estimators=100 and max_depth=10.
+Uncertainty and Explainability: compute split-conformal 95% prediction intervals from held-out calibration sets; per-prediction explanations are exposed through backend endpoints.
+Recommendation and Risk Scoring: recommendations rank candidate trains by aggregated scores combining predicted delay, price, and a reliability component derived from prediction interval width and imputation flags.
+
+Experiments and Results:
+Reported demo metrics on the saved artifacts: MAE 3.47 min, R^2 0.9826, training time < 30s (CPU), prediction latency < 100 ms. Feature importance ranks distance highest, followed by season and month. Figures: feature importance, predicted vs ground truth scatter, and error coverage diagnostics are included.
+
+Deployment and Reproducibility:
+The system is deployed as a Flask API serving endpoints for prediction, explanation, recommendation, and propagation analyses. Reproducibility artifacts include train_model.py, scripts/, requirements.txt, saved model artifacts and encoders, and tests invoked via pytest. Docker and CI are included to build the LaTeX PDF and run scripted workflows.
+
+Discussion and Conclusion:
+A carefully curated dataset and an ensemble model yield accurate demo estimates; conformal intervals and imputation flags make uncertainty and data quality explicit. Future work: scale to larger datasets, use temporal sequence models, perform ablation studies, and run user studies to validate recommendations.
+
+References: see paper/references.bib for full citations.
