@@ -41,6 +41,38 @@ Figure~\ref{fig:scatter} shows predicted vs ground truth delays for the sample d
   \label{fig:coverage}
 \end{figure}
 
+\subsection{Additional diagnostics}
+To better understand model behavior and error modes, we include additional diagnostic plots: residual histograms, calibration curves, residual vs.
+prediction scatter, and a canonical distance distribution for the demo snapshot. These diagnostics help identify skewed error distributions and miscalibration that may affect recommendations.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.48\textwidth]{figs/residual_hist.png}
+  \caption{Residual histogram (predicted minus true delay).}
+  \label{fig:residhist}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.48\textwidth]{figs/calibration_curve.png}
+  \caption{Calibration curve for conformal intervals (nominal vs empirical coverage).}
+  \label{fig:calib}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.48\textwidth]{figs/residual_vs_pred.png}
+  \caption{Residual vs predicted delays; useful to detect heteroscedastic errors.}
+  \label{fig:residpred}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.48\textwidth]{figs/distance_dist.png}
+  \caption{Distribution of route distances in the demo snapshot.}
+  \label{fig:dist}
+\end{figure}
+
 \subsection{Limitations}
 The demo dataset is relatively small (few hundred to a few thousand route records depending on the master snapshot) and may not reflect national or cross‑seasonal variation. We recommend larger temporally separated validation sets, external benchmarks, and operational A/B tests before deploying the model broadly.
 

@@ -2,6 +2,17 @@
 \subsection{Modeling}
 We use a RandomForestRegressor trained on engineered features (route, distance, day, month, season, weather). Hyperparameters used in the demo training (see \texttt{train_model.py}) include \texttt{n\_estimators=100} and \texttt{max\_depth=10}. Model artifacts and encoders are saved for inference in \texttt{backend/}.
 
+\subsection{Feature engineering and imputation}
+Feature construction focuses on aggregating route-level historical statistics and creating robust encodings for sparsely observed categories. Key steps include:
+\begin{itemize}
+  \item Aggregating historical mean and median delay per route and per station-window.
+  \item Encoding categorical features (route, weather, season) with label encoders; rare categories are grouped into an "other" bucket.
+  \item Imputing missing RailRadar or weather features with median statistics and recording imputation flags to help downstream uncertainty estimation.
+\end{itemize}
+These imputation flags are subsequently used to increase the returned risk score when imputed values are present, reflecting higher uncertainty in those predictions.
+
+\subsection{Calibration and interval construction}
+We compute split-conformal prediction intervals using a held-out calibration set. The calibration step computes nonconformity scores (absolute residuals) and uses empirical quantiles to produce valid marginal coverage at the chosen nominal level (e.g., 95\%). When conditional coverage is desired, we recommend stratified calibration splits and local conformal methods as discussed in the literature \cite{romano2019conformal}.
 \subsection{Uncertainty and Explainability}
 To quantify uncertainty, we compute split‑conformal 95\% prediction intervals from held‑out calibration sets (\texttt{scripts/conformal_intervals.py}). For per‑prediction explanations, the backend exposes top feature contributors and simple SHAP‑style attributions to inform recommendations.
 
