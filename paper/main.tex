@@ -3,7 +3,8 @@
 	\documentclass[conference]{IEEEtran}
 }{%
 	% Use article class in draft diagnostic mode to make layout issues visible
-	\documentclass[draft,onecolumn]{article}
+	\documentclass[11pt,draft,onecolumn]{article}
+\linespread{1.05} % slightly looser leading for readability
 	\usepackage[margin=1in]{geometry}
 	\newcommand{\ieeetranmissing}{Draft uses article because IEEEtran.cls was not found.}
 	% Force consistent fonts and show overfull boxes for debugging
@@ -30,6 +31,8 @@
 \usepackage{amsmath}
 \usepackage{booktabs}
 \usepackage{microtype}
+\usepackage{float}
+\usepackage{cmap} % improves copy/paste and font mapping in PDFs
 \usepackage{hyperref}
 \usepackage{caption}
 \usepackage{subcaption}
