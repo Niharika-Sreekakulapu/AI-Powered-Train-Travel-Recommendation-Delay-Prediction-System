@@ -21,6 +21,10 @@
 \usepackage{subcaption}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
+\usepackage{placeins} % provides \FloatBarrier
+% Small spacing improvements for article fallback builds
+\setlength{\parskip}{0.5ex}
+\raggedbottom
 % Map a few Unicode punctuation/hyphen characters to simple TeX equivalents
 \DeclareUnicodeCharacter{2011}{-}
 \DeclareUnicodeCharacter{2013}{--}
@@ -30,32 +34,67 @@
 
 \title{AI‑Powered Train Travel Recommendation and Delay Prediction System}
 
-\author{
-\IEEEauthorblockN{Niharika Sreekakulapu}
-\IEEEauthorblockA{Dept. name of organization (Affiliation)\\
-Name of organization (Affiliation)\\
-City, Country\\
-niharika.s@example.edu}
-\\
-\IEEEauthorblockN{Leela Shakunya Devi}
-\IEEEauthorblockA{Dept. name of organization (Affiliation)\\
-Name of organization (Affiliation)\\
-City, Country\\
-leela.shakunya@example.org}
-\\
-\IEEEauthorblockN{Srilakshmi}
-\IEEEauthorblockA{Dept. name of organization (Affiliation)\\
-Name of organization (Affiliation)\\
-City, Country\\
-srilakshmi.r@example.edu}
-\IEEEauthorblockN{Jenith Rahul}
-\IEEEauthorblockA{Dept. name of organization (Affiliation)\\
-Name of organization (Affiliation)\\
-City, Country\\
-jenith.rahul@example.com}
+% Use a clean author block depending on the class available
+% If IEEEtran is present, preserve the IEEE author blocks above; otherwise
+% provide a readable centered block for article-mode builds.
+\IfFileExists{IEEEtran.cls}{%
+  \author{%
+    \IEEEauthorblockN{Niharika Sreekakulapu}
+    \IEEEauthorblockA{Dept. name of organization (Affiliation)\\
+    Name of organization (Affiliation)\\
+    City, Country\\
+    niharika.s@example.edu}
+    \\%
+    \IEEEauthorblockN{Leela Shakunya Devi}
+    \IEEEauthorblockA{Dept. name of organization (Affiliation)\\
+    Name of organization (Affiliation)\\
+    City, Country\\
+    leela.shakunya@example.org}
+    \\%
+    \IEEEauthorblockN{Srilakshmi}
+    \IEEEauthorblockA{Dept. name of organization (Affiliation)\\
+    Name of organization (Affiliation)\\
+    City, Country\\
+    srilakshmi.r@example.edu}
+    \IEEEauthorblockN{Jenith Rahul}
+    \IEEEauthorblockA{Dept. name of organization (Affiliation)\\
+    Name of organization (Affiliation)\\
+    City, Country\\
+    jenith.rahul@example.com}
+  }
+}{%
+  \author{%
+    \begin{center}
+      {\large \textbf{Niharika Sreekakulapu}}\\
+      Dept. name of organization (Affiliation)\\
+      Name of organization (Affiliation)\\
+      City, Country\\
+      \texttt{niharika.s@example.edu}\\[8pt]
+      {\large \textbf{Leela Shakunya Devi}}\\
+      Dept. name of organization (Affiliation)\\
+      Name of organization (Affiliation)\\
+      City, Country\\
+      \texttt{leela.shakunya@example.org}\\[8pt]
+      {\large \textbf{Srilakshmi}}\\
+      Dept. name of organization (Affiliation)\\
+      Name of organization (Affiliation)\\
+      City, Country\\
+      \texttt{srilakshmi.r@example.edu}\\[8pt]
+      {\large \textbf{Jenith Rahul}}\\
+      Dept. name of organization (Affiliation)\\
+      Name of organization (Affiliation)\\
+      City, Country\\
+      \texttt{jenith.rahul@example.com}
+    \end{center}
+  }
 }
 
+% For article-mode review builds, prefer single-column and readable spacing
+\IfFileExists{IEEEtran.cls}{}{\onecolumn}
+
 \maketitle
+\FloatBarrier
+
 
 \begin{abstract}
 We present TrainDelay AI, an end‑to‑end system for train delay prediction and travel recommendation. The pipeline includes data curation and imputation, feature engineering, RandomForest regression for delay estimation, calibrated conformal prediction intervals for uncertainty quantification, and explainable recommendations via per‑prediction feature contributions and a risk score. On the demo dataset, the model achieves MAE $\approx$ 3.47 minutes and R\textsuperscript{2} $\approx$ 0.9826. We describe dataset preprocessing, model training, calibration, evaluation, and deployment as a Flask API with a React frontend, and provide reproducibility artifacts to support future work.
@@ -73,6 +112,8 @@ train delay prediction, Random Forest, conformal prediction, explainability, tra
 \input{sections/deployment}
 \input{sections/discussion}
 \input{sections/conclusion}
+\clearpage
+\FloatBarrier
 \input{sections/appendix}
 
 \section*{Acknowledgment}

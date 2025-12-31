@@ -18,60 +18,67 @@ Prediction latency & $<$ 100 ms & backend measurement \\
 
 Feature importance (reported by the saved RandomForest) ranks distance as the most important feature ($\approx$52.2\%), followed by season and month. Figure~\ref{fig:featimp} shows the top features as extracted from the saved \texttt{model_v2.pkl} artifact.
 
-\begin{figure}[h]
+\FloatBarrier
+\begin{figure}[!htbp]
   \centering
   \includegraphics[width=0.48\textwidth]{figs/feature_importance.png}
   \caption{Feature importance for the RandomForest model (demo).}
   \label{fig:featimp}
 \end{figure}
+\FloatBarrier
 
 Figure~\ref{fig:scatter} shows predicted vs ground truth delays for the sample dataset and Figure~\ref{fig:coverage} summarizes error coverage vs absolute error thresholds (a calibration‑style diagnostic).
 
-\begin{figure}[h]
+\FloatBarrier
+\begin{figure}[!htbp]
   \centering
-  \includegraphics[width=0.48\textwidth]{figs/pred_vs_true_scatter.png}
+  \includegraphics[width=0.9\linewidth]{figs/pred_vs_true_scatter.png}
   \caption{Predicted vs ground truth delay (scatter).}
   \label{fig:scatter}
 \end{figure}
-
-\begin{figure}[h]
+\FloatBarrier
+\begin{figure}[!htbp]
   \centering
-  \includegraphics[width=0.48\textwidth]{figs/error_coverage.png}
+  \includegraphics[width=0.9\linewidth]{figs/error_coverage.png}
   \caption{Error coverage vs absolute error threshold (fraction of examples within threshold).}
   \label{fig:coverage}
 \end{figure}
+\FloatBarrier
 
+\FloatBarrier
 \subsection{Additional diagnostics}
 To better understand model behavior and error modes, we include additional diagnostic plots: residual histograms, calibration curves, residual vs.
 prediction scatter, and a canonical distance distribution for the demo snapshot. These diagnostics help identify skewed error distributions and miscalibration that may affect recommendations.
+\FloatBarrier
 
-\begin{figure}[h]
+\begin{figure}[!htbp]
   \centering
-  \includegraphics[width=0.48\textwidth]{figs/residual_hist.png}
+  \includegraphics[width=0.9\linewidth]{figs/residual_hist.png}
   \caption{Residual histogram (predicted minus true delay).}
   \label{fig:residhist}
 \end{figure}
-
-\begin{figure}[h]
+\FloatBarrier
+\begin{figure}[!htbp]
   \centering
-  \includegraphics[width=0.48\textwidth]{figs/calibration_curve.png}
+  \includegraphics[width=0.9\linewidth]{figs/calibration_curve.png}
   \caption{Calibration curve for conformal intervals (nominal vs empirical coverage).}
   \label{fig:calib}
 \end{figure}
-
-\begin{figure}[h]
+\FloatBarrier
+\begin{figure}[!htbp]
   \centering
-  \includegraphics[width=0.48\textwidth]{figs/residual_vs_pred.png}
+  \includegraphics[width=0.9\linewidth]{figs/residual_vs_pred.png}
   \caption{Residual vs predicted delays; useful to detect heteroscedastic errors.}
   \label{fig:residpred}
 \end{figure}
-
-\begin{figure}[h]
+\FloatBarrier
+\begin{figure}[!htbp]
   \centering
-  \includegraphics[width=0.48\textwidth]{figs/distance_dist.png}
+  \includegraphics[width=0.9\linewidth]{figs/distance_dist.png}
   \caption{Distribution of route distances in the demo snapshot.}
   \label{fig:dist}
 \end{figure}
+\FloatBarrier
 
 \subsection{Limitations}
 The demo dataset is relatively small (few hundred to a few thousand route records depending on the master snapshot) and may not reflect national or cross‑seasonal variation. We recommend larger temporally separated validation sets, external benchmarks, and operational A/B tests before deploying the model broadly.

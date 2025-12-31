@@ -13,6 +13,9 @@ frontend/build/
 
 # Temporary and generated files
 tmp_predict_response.json
+paper/main.pdf
+paper/*.docx
+paper/~$*
 
 # Archive of removed/unused files
 archive_unused/
