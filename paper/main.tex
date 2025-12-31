@@ -2,9 +2,23 @@
 \IfFileExists{IEEEtran.cls}{%
 	\documentclass[conference]{IEEEtran}
 }{%
-	\documentclass{article}
+	% Use article class in draft diagnostic mode to make layout issues visible
+	\documentclass[draft,onecolumn]{article}
 	\usepackage[margin=1in]{geometry}
 	\newcommand{\ieeetranmissing}{Draft uses article because IEEEtran.cls was not found.}
+	% Force consistent fonts and show overfull boxes for debugging
+	\usepackage{lmodern}
+	\usepackage{microtype}
+	\renewcommand{\familydefault}{\rmdefault}
+	\overfullrule=5pt
+	% Make TeX less aggressive about tight justification (reduce overlaps)
+	\sloppy
+	\emergencystretch=1em
+	\setlength{\parskip}{0.5ex}
+	\raggedbottom
+	% Float spacing to reduce collisions
+	\setlength{\textfloatsep}{14pt plus 4pt minus 6pt}
+	\setlength{\intextsep}{12pt plus 3pt minus 4pt}
 	% Define lightweight fallbacks for a subset of IEEEtran macros so the
 	% source can compile under article when IEEEtran.cls is unavailable.
 	% These produce a readable author block and keywords section.
