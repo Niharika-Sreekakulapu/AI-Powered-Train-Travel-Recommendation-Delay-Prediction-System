@@ -7,8 +7,13 @@
 \linespread{1.05} % slightly looser leading for readability
 	\usepackage[margin=1in]{geometry}
 	\newcommand{\ieeetranmissing}{Draft uses article because IEEEtran.cls was not found.}
-	% Force consistent fonts and show overfull boxes for debugging
-	\usepackage{lmodern}
+	% Prefer Times-like text+math if available, otherwise fall back to lmodern
+	\IfFileExists{newtxtext.sty}{%
+	  \usepackage{newtxtext,newtxmath}
+	  \PackageWarning{paper}{Using newtx (Times-like) text and math fonts for consistent typesetting}
+	}{%
+	  \usepackage{lmodern}
+	}
 	\usepackage{microtype}
 	\renewcommand{\familydefault}{\rmdefault}
 	\overfullrule=5pt
