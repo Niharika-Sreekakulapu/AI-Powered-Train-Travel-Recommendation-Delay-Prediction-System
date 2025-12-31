@@ -3,7 +3,7 @@ Accurate short‑term train delay prediction helps passengers and operators make
 
 This work presents TrainDelay AI, an applied system combining an ensemble predictor, a conformal calibration step for prediction intervals, and an explainable recommendation engine delivered through a Flask API and React frontend. Our contributions are:
 \begin{itemize}
-  \item A complete, reproducible pipeline for train delay prediction from raw data to a deployed API.
-  \item Integration of calibrated conformal intervals and imputation flagging to manage uncertainty arising from missing or imputed features.
-  \item Explainable recommendations and a risk score that ranks candidate trains by speed, cost, and reliability.
+  \item A complete, reproducible pipeline for train delay prediction from raw data to a deployed API, including artifacts and scripts to reproduce key results.
+  \item Integration of calibrated conformal intervals and imputation flagging to manage uncertainty arising from missing or imputed features, with diagnostics to guide operational thresholds.
+  \item Explainable recommendations and a risk score that ranks candidate trains by delay risk, cost, and reliability; we include a short case study in the Appendix demonstrating typical failure modes and recommended thresholds.
 \end{itemize}

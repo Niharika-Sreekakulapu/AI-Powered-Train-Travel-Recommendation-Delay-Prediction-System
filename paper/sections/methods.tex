@@ -6,4 +6,7 @@ We use a RandomForestRegressor trained on engineered features (route, distance, 
 To quantify uncertainty, we compute split‑conformal 95\% prediction intervals from held‑out calibration sets (\texttt{scripts/conformal_intervals.py}). For per‑prediction explanations, the backend exposes top feature contributors and simple SHAP‑style attributions to inform recommendations.
 
 \subsection{Recommendation and Risk Scoring}
-Recommendations rank candidate trains by lightweight aggregated scores combining predicted delay, price, and a reliability component derived from prediction interval width and imputation flags. A simple deterministic risk score (0–100) is computed and returned alongside each recommendation.
+Recommendations rank candidate trains by lightweight aggregated scores combining predicted delay, price, and a reliability component derived from prediction interval width and imputation flags. A simple deterministic risk score (0--100) is computed and returned alongside each recommendation, and we provide decision thresholds (low/medium/high risk) in the Appendix to guide deployment.
+
+\subsection{Implementation details}
+Inference is implemented in `backend/app.py` and uses the saved encoders and model artifact to construct per-request features. The prediction pipeline validates required features, fills missing numeric values with median statistics, and flags imputed values that increase the returned risk score. Predictions are returned as JSON containing mean prediction, a conformal interval, the risk score, and top feature contributors for explainability.

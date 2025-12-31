@@ -43,3 +43,6 @@ Figure~\ref{fig:scatter} shows predicted vs ground truth delays for the sample d
 
 \subsection{Limitations}
 The demo dataset is relatively small (few hundred to a few thousand route records depending on the master snapshot) and may not reflect national or cross‑seasonal variation. We recommend larger temporally separated validation sets, external benchmarks, and operational A/B tests before deploying the model broadly.
+
+\subsection{Practical case study}
+In the Appendix we include a short case study where the system flags routes with high predicted variability due to imputed RailRadar values; we show how adjusting risk thresholds avoids recommending routes with high uncertainty for risk-averse users.
