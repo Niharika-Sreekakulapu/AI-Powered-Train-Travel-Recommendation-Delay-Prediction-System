@@ -1,9 +1,9 @@
 \section{Data and Preprocessing}
-The project uses a curated route‑level dataset stored in \texttt{data/} (notably \texttt{ap_trains_master_clean.csv} and \texttt{train_data\_*.csv}). The demo dataset contains roughly 250+ route records with features including train id, source, destination, distance, day of week, month, season, weather condition, price, and historical average delay. Key preprocessing steps:
+The project uses a curated route-level dataset stored in \texttt{data/} (notably \texttt{ap\_trains\_master\_clean.csv} and \texttt{train\_data\_\*.csv}). The demo dataset contains roughly 250+ route records with features including train id, source, destination, distance, day of week, month, season, weather condition, price, and historical average delay. Key preprocessing steps:
 \begin{itemize}
-  \item Construct \texttt{route} as \texttt{source-destination} and scale numeric features such as distance.
-  \item Encode categorical features (route, weather, season) using label encoders saved with model artifacts.
-  \item Apply imputation pipelines for missing RailRadar features and flag imputed values (flags v4–v7 pipeline in \texttt{scripts/}).
+  \item Construct \texttt{route} as \texttt{source-destination} and scale numeric features such as \texttt{distance}.
+  \item Encode categorical features (\texttt{route}, \texttt{weather}, \texttt{season}) using label encoders saved with model artifacts.
+  \item Apply imputation pipelines for missing RailRadar features and flag imputed values (flags v4--v7 pipeline in \texttt{scripts/}).
   \item Produce conformal calibration splits to compute 95\% prediction intervals.
 \end{itemize}
 
@@ -15,11 +15,11 @@ Table~\ref{tab:features} summarizes key features, their types, and typical missi
 \toprule
 Feature & Type & Typical missingness \\
 \midrule
-route & categorical & 0\% \\
-distance & numeric & 0\% \\
-weather_condition & categorical & 8--12\% \\
-railradar_speed & numeric & 10--20\% \\
-avg_historical_delay & numeric & 0\% \\
+\texttt{route} & categorical & 0\% \\
+\texttt{distance} & numeric & 0\% \\
+\texttt{weather\_condition} & categorical & 8--12\% \\
+\texttt{railradar\_speed} & numeric & 10--20\% \\
+\texttt{avg\_historical\_delay} & numeric & 0\% \\
 \bottomrule
 \end{tabular}
 \label{tab:features}
