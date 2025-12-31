@@ -1,9 +1,9 @@
 \section{Methods}
 \subsection{Modeling}
-We use a RandomForestRegressor trained on engineered features (route, distance, day, month, season, weather). Hyperparameters used in the demo training (see `train_model.py`) include `n_estimators=100` and `max_depth=10`. Model artifacts and encoders are saved for inference in `backend/`.
+We use a RandomForestRegressor trained on engineered features (route, distance, day, month, season, weather). Hyperparameters used in the demo training (see \texttt{train_model.py}) include \texttt{n\_estimators=100} and \texttt{max\_depth=10}. Model artifacts and encoders are saved for inference in \texttt{backend/}.
 
 \subsection{Uncertainty and Explainability}
-To quantify uncertainty, we compute split‑conformal 95\% prediction intervals from held‑out calibration sets (`scripts/conformal_intervals.py`). For per‑prediction explanations, the backend exposes top feature contributors and simple SHAP‑style attributions to inform recommendations.
+To quantify uncertainty, we compute split‑conformal 95\% prediction intervals from held‑out calibration sets (\texttt{scripts/conformal_intervals.py}). For per‑prediction explanations, the backend exposes top feature contributors and simple SHAP‑style attributions to inform recommendations.
 
 \subsection{Recommendation and Risk Scoring}
 Recommendations rank candidate trains by lightweight aggregated scores combining predicted delay, price, and a reliability component derived from prediction interval width and imputation flags. A simple deterministic risk score (0–100) is computed and returned alongside each recommendation.

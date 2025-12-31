@@ -4,7 +4,13 @@
 }{%
 	\documentclass{article}
 	\usepackage[margin=1in]{geometry}
-	\newcommand{\ieeetranmissing}{Draft uses `article` because IEEEtran.cls was not found.}
+	\newcommand{\ieeetranmissing}{Draft uses article because IEEEtran.cls was not found.}
+	% Define lightweight fallbacks for a subset of IEEEtran macros so the
+	% source can compile under article when IEEEtran.cls is unavailable.
+	% These produce a readable author block and keywords section.
+	\providecommand{\IEEEauthorblockN}[1]{\textbf{#1}\\}
+	\providecommand{\IEEEauthorblockA}[1]{#1\\}
+	\provideenvironment{IEEEkeywords}{\par\noindent\textbf{Keywords:}\ }{\par}
 }
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -13,6 +19,13 @@
 \usepackage{hyperref}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+% Map a few Unicode punctuation/hyphen characters to simple TeX equivalents
+\DeclareUnicodeCharacter{2011}{-}
+\DeclareUnicodeCharacter{2013}{--}
+\DeclareUnicodeCharacter{2014}{---}
+\DeclareUnicodeCharacter{2212}{-}
 \begin{document}
 
 \title{AI‑Powered Train Travel Recommendation and Delay Prediction System}
@@ -45,7 +58,7 @@ jenith.rahul@example.com}
 \maketitle
 
 \begin{abstract}
-We present TrainDelay AI, an end‑to‑end system for train delay prediction and travel recommendation. The pipeline includes data curation and imputation, feature engineering, RandomForest regression for delay estimation, calibrated conformal prediction intervals for uncertainty quantification, and explainable recommendations via per‑prediction feature contributions and a risk score. On the demo dataset, the model achieves MAE ≈ 3.47 minutes and R\textsuperscript{2} ≈ 0.9826. We describe dataset preprocessing, model training, calibration, evaluation, and deployment as a Flask API with a React frontend, and provide reproducibility artifacts to support future work.
+We present TrainDelay AI, an end‑to‑end system for train delay prediction and travel recommendation. The pipeline includes data curation and imputation, feature engineering, RandomForest regression for delay estimation, calibrated conformal prediction intervals for uncertainty quantification, and explainable recommendations via per‑prediction feature contributions and a risk score. On the demo dataset, the model achieves MAE $\approx$ 3.47 minutes and R\textsuperscript{2} $\approx$ 0.9826. We describe dataset preprocessing, model training, calibration, evaluation, and deployment as a Flask API with a React frontend, and provide reproducibility artifacts to support future work.
 \end{abstract}
 
 \begin{IEEEkeywords}

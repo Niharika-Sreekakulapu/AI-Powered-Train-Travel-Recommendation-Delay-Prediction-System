@@ -1,11 +1,11 @@
 \section{Deployment and Reproducibility}
-The system is deployed as a Flask API (`backend/app.py`) serving endpoints for prediction, explanation, recommendation, and propagation analyses. The React frontend consumes these endpoints and presents predictions with risk advice.
+The system is deployed as a Flask API (\texttt{backend/app.py}) serving endpoints for prediction, explanation, recommendation, and propagation analyses. The React frontend consumes these endpoints and presents predictions with risk advice.
 
 Reproducibility artifacts included in the repository:
 \begin{itemize}
-  \item `train_model.py`, `scripts/` (imputation, calibration, and testing), and `requirements.txt` for environment setup.
-  \item Saved model artifacts and encoders in `backend/` and `models/`.
-  \item Tests that validate the imputation pipeline and price estimator. Use `pytest` to run the test suite.
+  \item \texttt{train_model.py}, \texttt{scripts/} (imputation, calibration, and testing), and \texttt{requirements.txt} for environment setup.
+  \item Saved model artifacts and encoders in \texttt{backend/} and \texttt{models/}.
+  \item Tests that validate the imputation pipeline and price estimator. Use \texttt{pytest} to run the test suite.
 \end{itemize}
 
-To ease replication for reviewers, a Dockerfile and `run_experiments.sh` are recommended additions (I can add them on request).
+To ease replication for reviewers, a Dockerfile and \texttt{run_experiments.sh} are recommended additions (I can add them on request).
