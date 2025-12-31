@@ -1,4 +1,11 @@
-\documentclass[conference]{IEEEtran}
+% Use IEEEtran when available; fall back to article for CI/build environments without IEEEtran
+\IfFileExists{IEEEtran.cls}{%
+	\documentclass[conference]{IEEEtran}
+}{%
+	\documentclass{article}
+	\usepackage[margin=1in]{geometry}
+	\newcommand{\ieeetranmissing}{Draft uses `article` because IEEEtran.cls was not found.}
+}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{booktabs}
