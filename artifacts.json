@@ -1,0 +1,25 @@
+﻿{
+    "total_count":  1,
+    "artifacts":  [
+                      {
+                          "id":  4999421622,
+                          "node_id":  "MDg6QXJ0aWZhY3Q0OTk5NDIxNjIy",
+                          "name":  "paper-pdf",
+                          "size_in_bytes":  655748,
+                          "url":  "https://api.github.com/repos/Niharika-Sreekakulapu/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System/actions/artifacts/4999421622",
+                          "archive_download_url":  "https://api.github.com/repos/Niharika-Sreekakulapu/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System/actions/artifacts/4999421622/zip",
+                          "expired":  false,
+                          "digest":  "sha256:f8a7f2f72bb98d70c2d5654e8e2e383cb1ef53e66f4f6ef656382fc011ca83dc",
+                          "created_at":  "2025-12-31T18:00:23Z",
+                          "updated_at":  "2025-12-31T18:00:23Z",
+                          "expires_at":  "2026-03-31T17:58:18Z",
+                          "workflow_run":  {
+                                               "id":  20624383828,
+                                               "repository_id":  1125773490,
+                                               "head_repository_id":  1125773490,
+                                               "head_branch":  "main",
+                                               "head_sha":  "0effa85a5f5471782d3b0d6d13607f667c670eeb"
+                                           }
+                      }
+                  ]
+}

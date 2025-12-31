@@ -1,0 +1,72 @@
+﻿2025-12-31T17:58:22.6590227Z ##[group]Run actions/checkout@v4
+2025-12-31T17:58:22.6591288Z with:
+2025-12-31T17:58:22.6592097Z   repository: Niharika-Sreekakulapu/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System
+2025-12-31T17:58:22.6593152Z   token: ***
+2025-12-31T17:58:22.6593524Z   ssh-strict: true
+2025-12-31T17:58:22.6593904Z   ssh-user: git
+2025-12-31T17:58:22.6594289Z   persist-credentials: true
+2025-12-31T17:58:22.6594724Z   clean: true
+2025-12-31T17:58:22.6595118Z   sparse-checkout-cone-mode: true
+2025-12-31T17:58:22.6595592Z   fetch-depth: 1
+2025-12-31T17:58:22.6595971Z   fetch-tags: false
+2025-12-31T17:58:22.6596360Z   show-progress: true
+2025-12-31T17:58:22.6596756Z   lfs: false
+2025-12-31T17:58:22.6597125Z   submodules: false
+2025-12-31T17:58:22.6597530Z   set-safe-directory: true
+2025-12-31T17:58:22.6598192Z ##[endgroup]
+2025-12-31T17:58:22.7672557Z Syncing repository: Niharika-Sreekakulapu/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System
+2025-12-31T17:58:22.7674731Z ##[group]Getting Git version info
+2025-12-31T17:58:22.7676284Z Working directory is '/home/runner/work/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System'
+2025-12-31T17:58:22.7677933Z [command]/usr/bin/git version
+2025-12-31T17:58:22.7796736Z git version 2.52.0
+2025-12-31T17:58:22.7823404Z ##[endgroup]
+2025-12-31T17:58:22.7846405Z Temporarily overriding HOME='/home/runner/work/_temp/51db5a92-ed99-439e-b2e4-552c80786d35' before making global git config changes
+2025-12-31T17:58:22.7848218Z Adding repository directory to the temporary git global config as a safe directory
+2025-12-31T17:58:22.7853305Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System
+2025-12-31T17:58:22.7896818Z Deleting the contents of '/home/runner/work/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System'
+2025-12-31T17:58:22.7900558Z ##[group]Initializing the repository
+2025-12-31T17:58:22.7905846Z [command]/usr/bin/git init /home/runner/work/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System
+2025-12-31T17:58:22.8041933Z hint: Using 'master' as the name for the initial branch. This default branch name
+2025-12-31T17:58:22.8043342Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2025-12-31T17:58:22.8044255Z hint: to use in all of your new repositories, which will suppress this warning,
+2025-12-31T17:58:22.8044943Z hint: call:
+2025-12-31T17:58:22.8045374Z hint:
+2025-12-31T17:58:22.8046252Z hint: 	git config --global init.defaultBranch <name>
+2025-12-31T17:58:22.8047025Z hint:
+2025-12-31T17:58:22.8047731Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2025-12-31T17:58:22.8049452Z hint: 'development'. The just-created branch can be renamed via this command:
+2025-12-31T17:58:22.8051173Z hint:
+2025-12-31T17:58:22.8051956Z hint: 	git branch -m <name>
+2025-12-31T17:58:22.8052799Z hint:
+2025-12-31T17:58:22.8053968Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2025-12-31T17:58:22.8057502Z Initialized empty Git repository in /home/runner/work/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System/.git/
+2025-12-31T17:58:22.8062901Z [command]/usr/bin/git remote add origin https://github.com/Niharika-Sreekakulapu/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System
+2025-12-31T17:58:22.8098355Z ##[endgroup]
+2025-12-31T17:58:22.8099600Z ##[group]Disabling automatic garbage collection
+2025-12-31T17:58:22.8103334Z [command]/usr/bin/git config --local gc.auto 0
+2025-12-31T17:58:22.8133885Z ##[endgroup]
+2025-12-31T17:58:22.8134889Z ##[group]Setting up auth
+2025-12-31T17:58:22.8140882Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2025-12-31T17:58:22.8169975Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2025-12-31T17:58:22.8554017Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2025-12-31T17:58:22.8582797Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2025-12-31T17:58:22.8797869Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2025-12-31T17:58:22.8827361Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2025-12-31T17:58:22.9062013Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2025-12-31T17:58:22.9096301Z ##[endgroup]
+2025-12-31T17:58:22.9097683Z ##[group]Fetching the repository
+2025-12-31T17:58:22.9106320Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +0effa85a5f5471782d3b0d6d13607f667c670eeb:refs/remotes/origin/main
+2025-12-31T17:58:25.0514452Z From https://github.com/Niharika-Sreekakulapu/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System
+2025-12-31T17:58:25.0517395Z  * [new ref]         0effa85a5f5471782d3b0d6d13607f667c670eeb -> origin/main
+2025-12-31T17:58:25.0545888Z ##[endgroup]
+2025-12-31T17:58:25.0547413Z ##[group]Determining the checkout info
+2025-12-31T17:58:25.0548976Z ##[endgroup]
+2025-12-31T17:58:25.0552960Z [command]/usr/bin/git sparse-checkout disable
+2025-12-31T17:58:25.0593809Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2025-12-31T17:58:25.0618292Z ##[group]Checking out the ref
+2025-12-31T17:58:25.0621494Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2025-12-31T17:58:25.2840936Z Switched to a new branch 'main'
+2025-12-31T17:58:25.2842659Z branch 'main' set up to track 'origin/main'.
+2025-12-31T17:58:25.2861552Z ##[endgroup]
+2025-12-31T17:58:25.2897259Z [command]/usr/bin/git log -1 --format=%H
+2025-12-31T17:58:25.2918862Z 0effa85a5f5471782d3b0d6d13607f667c670eeb

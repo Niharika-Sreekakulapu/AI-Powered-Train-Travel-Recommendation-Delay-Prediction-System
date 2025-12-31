@@ -1,0 +1,27 @@
+﻿2025-12-31T18:00:22.6466967Z ##[group]Run actions/upload-artifact@v4
+2025-12-31T18:00:22.6467228Z with:
+2025-12-31T18:00:22.6467395Z   name: paper-pdf
+2025-12-31T18:00:22.6467576Z   path: paper/main.pdf
+2025-12-31T18:00:22.6467777Z   if-no-files-found: warn
+2025-12-31T18:00:22.6467975Z   compression-level: 6
+2025-12-31T18:00:22.6468330Z   overwrite: false
+2025-12-31T18:00:22.6468511Z   include-hidden-files: false
+2025-12-31T18:00:22.6468709Z env:
+2025-12-31T18:00:22.6468922Z   pythonLocation: /opt/hostedtoolcache/Python/3.10.19/x64
+2025-12-31T18:00:22.6469305Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.10.19/x64/lib/pkgconfig
+2025-12-31T18:00:22.6469681Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.19/x64
+2025-12-31T18:00:22.6470024Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.19/x64
+2025-12-31T18:00:22.6470349Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.19/x64
+2025-12-31T18:00:22.6470917Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.10.19/x64/lib
+2025-12-31T18:00:22.6471216Z ##[endgroup]
+2025-12-31T18:00:22.8603055Z With the provided path, there will be 1 file uploaded
+2025-12-31T18:00:22.8608377Z Artifact name is valid!
+2025-12-31T18:00:22.8609646Z Root directory input is valid!
+2025-12-31T18:00:23.0241218Z Beginning upload of artifact content to blob storage
+2025-12-31T18:00:23.3915105Z Uploaded bytes 655748
+2025-12-31T18:00:23.4330630Z Finished uploading artifact content to blob storage!
+2025-12-31T18:00:23.4334269Z SHA256 digest of uploaded artifact zip is f8a7f2f72bb98d70c2d5654e8e2e383cb1ef53e66f4f6ef656382fc011ca83dc
+2025-12-31T18:00:23.4336075Z Finalizing artifact upload
+2025-12-31T18:00:23.5502999Z Artifact paper-pdf.zip successfully finalized. Artifact ID 4999421622
+2025-12-31T18:00:23.5504143Z Artifact paper-pdf has been successfully uploaded! Final size is 655748 bytes. Artifact ID is 4999421622
+2025-12-31T18:00:23.5512229Z Artifact download URL: https://github.com/Niharika-Sreekakulapu/AI-Powered-Train-Travel-Recommendation-Delay-Prediction-System/actions/runs/20624383828/artifacts/4999421622

@@ -1,0 +1,16 @@
+﻿2025-12-31T18:00:19.2844262Z ##[group]Run if [ -f backend/model_v2.pkl ] && [ -f data/train_data_ap_only.csv ]; then
+2025-12-31T18:00:19.2845000Z [36;1mif [ -f backend/model_v2.pkl ] && [ -f data/train_data_ap_only.csv ]; then[0m
+2025-12-31T18:00:19.2845383Z [36;1m  python paper/generate_figs.py[0m
+2025-12-31T18:00:19.2845622Z [36;1melse[0m
+2025-12-31T18:00:19.2845923Z [36;1m  echo "Model or data files missing — using committed figures in paper/figs"[0m
+2025-12-31T18:00:19.2846257Z [36;1mfi[0m
+2025-12-31T18:00:19.2880351Z shell: /usr/bin/bash -e {0}
+2025-12-31T18:00:19.2880567Z env:
+2025-12-31T18:00:19.2881180Z   pythonLocation: /opt/hostedtoolcache/Python/3.10.19/x64
+2025-12-31T18:00:19.2881581Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.10.19/x64/lib/pkgconfig
+2025-12-31T18:00:19.2881967Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.19/x64
+2025-12-31T18:00:19.2882303Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.19/x64
+2025-12-31T18:00:19.2882634Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.10.19/x64
+2025-12-31T18:00:19.2882995Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.10.19/x64/lib
+2025-12-31T18:00:19.2883275Z ##[endgroup]
+2025-12-31T18:00:19.2937975Z Model or data files missing — using committed figures in paper/figs
