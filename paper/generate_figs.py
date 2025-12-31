@@ -94,20 +94,6 @@ if 'season' in df.columns:
 else:
     X['season_encoded'] = 0
 
-# Ensure all features the model expects exist; fill missing with default values
-try:
-    expected = list(getattr(model, 'feature_names_in_', []))
-    if expected:
-        for col in expected:
-            if col not in X.columns:
-                # provide reasonable defaults
-                if col.startswith('is_'):
-                    X[col] = 0
-                else:
-                    X[col] = 0
-except Exception:
-    pass
-
 # Limit to rows with target
 mask = df['avg_delay_min'].notnull()
 df = df[mask]
@@ -115,12 +101,42 @@ X = X.loc[df.index]
 
 y_true = df['avg_delay_min'].astype(float)
 
-# Predict with model (if model expects different shape, catch errors)
+# Prepare prediction input matching model feature names to avoid unseen/mismatched features
+X_pred = X.copy()
+model_feature_names = list(getattr(model, 'feature_names_in_', []))
+if model_feature_names:
+    # build DataFrame with exactly the model's feature names (in order)
+    X_model = pd.DataFrame(index=X.index, columns=model_feature_names)
+    for col in model_feature_names:
+        if col in X.columns:
+            X_model[col] = X[col]
+        else:
+            # try to derive sensible defaults from df if possible
+            if col in df.columns:
+                X_model[col] = df[col]
+            elif col.startswith('is_'):
+                X_model[col] = 0
+            else:
+                X_model[col] = 0
+    # ensure proper dtypes
+    X_model = X_model.fillna(0)
+    X_pred = X_model
+else:
+    # fall back to X; if a feature list was provided, try to use it
+    if isinstance(features, list) and all([f in X.columns for f in features]):
+        X_pred = X[features]
+
+# Predict with model, catch and report errors
 try:
-    y_pred = model.predict(X[features]) if all([f in X.columns for f in features]) else model.predict(X)
+    y_pred = model.predict(X_pred)
 except Exception as e:
-    print('Model predict failed on chosen features, attempting on X directly:', e)
-    y_pred = model.predict(X)
+    print('Model predict failed on X_pred:', e)
+    # as a last resort, try predicting on a dense numeric array (drop non-numeric)
+    try:
+        y_pred = model.predict(X_pred.select_dtypes(include=[np.number]).fillna(0))
+    except Exception as e2:
+        print('Final model predict attempt failed:', e2)
+        raise
 
 # Metrics
 mae = mean_absolute_error(y_true, y_pred)
