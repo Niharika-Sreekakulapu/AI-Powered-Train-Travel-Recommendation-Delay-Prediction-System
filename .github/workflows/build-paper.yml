@@ -36,8 +36,13 @@ jobs:
           pip install -r requirements.txt || true
           pip install joblib matplotlib scikit-learn pandas
 
-      - name: Generate figures
-        run: python paper/generate_figs.py
+      - name: Generate figures (if artifacts present)
+        run: |
+          if [ -f backend/model_v2.pkl ] && [ -f data/train_data_ap_only.csv ]; then
+            python paper/generate_figs.py
+          else
+            echo "Model or data files missing — using committed figures in paper/figs"
+          fi
 
       - name: Build LaTeX PDF
         run: |
